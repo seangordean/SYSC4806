@@ -5,5 +5,5 @@ Model\BuddyInfo.class
 Model\HttpRequestTest.class
 Model\BuddyInfoRepository.class
 Model\SmokeTest.class
-Model\WebLayerTest.class
 Model\AccessingDataJpaApplication.class
+Model\TestingWebApplicationTest.class
