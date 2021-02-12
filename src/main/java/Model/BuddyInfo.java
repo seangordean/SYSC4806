@@ -10,16 +10,19 @@ public class BuddyInfo
     private Long id;
     private String name;
     private String phoneNumber;
+    private String address;
+
     @ManyToOne
     private AddressBook addressBook;
 
     public BuddyInfo()
     {
     }
-    public BuddyInfo(String name, String phoneNumber)
+    public BuddyInfo(String name, String phoneNumber, String address)
     {
         this.name = name;
         this.phoneNumber = phoneNumber;
+        this.address = address;
     }
     public Long getId() {
 
@@ -47,6 +50,14 @@ public class BuddyInfo
     public void setNumber(String number){
 
         phoneNumber = number;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
 

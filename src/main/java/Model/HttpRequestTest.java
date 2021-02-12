@@ -24,4 +24,9 @@ public class HttpRequestTest {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/people",
                 String.class)).contains("Jack");
     }
+    @Test
+    public void findAddress() throws Exception {
+        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/people",
+                String.class)).contains("I LIVE HERE");
+    }
 }

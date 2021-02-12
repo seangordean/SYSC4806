@@ -24,8 +24,8 @@ public class AccessingDataJpaApplication {
         return (args) -> {
             // save a few customers
             AddressBook addressBook = new AddressBook();
-            BuddyInfo buddy1 = new BuddyInfo("Jack", "613-250-2222");
-            BuddyInfo buddy2 = new BuddyInfo("Chloe", "121-323-6456");
+            BuddyInfo buddy1 = new BuddyInfo("Jack", "613-250-2222", "I LIVE HERE");
+            BuddyInfo buddy2 = new BuddyInfo("Chloe", "121-323-6456", "105 aasdasd");
             addressBook.addBuddy(buddy1);
             addressBook.addBuddy(buddy2);
             repository.save(buddy1);
