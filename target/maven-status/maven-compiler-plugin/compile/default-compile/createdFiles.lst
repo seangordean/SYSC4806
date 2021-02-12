@@ -1,0 +1,6 @@
+Model\ControllerModel.class
+Model\AddressBookRepository.class
+Model\AddressBook.class
+Model\BuddyInfo.class
+Model\BuddyInfoRepository.class
+Model\AccessingDataJpaApplication.class
