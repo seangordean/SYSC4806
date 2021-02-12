@@ -2,5 +2,8 @@ Model\ControllerModel.class
 Model\AddressBookRepository.class
 Model\AddressBook.class
 Model\BuddyInfo.class
+Model\HttpRequestTest.class
 Model\BuddyInfoRepository.class
+Model\SmokeTest.class
+Model\WebLayerTest.class
 Model\AccessingDataJpaApplication.class
